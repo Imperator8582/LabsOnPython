@@ -9,11 +9,6 @@ n=1
 
 if len(a)> len(set(a)):
     b=True
-#while n<len(a):
-#    for i in range (len(a)-n):
-#        if a[i]==a[i+1]:
-#            b=b+1
- #   n=n+1
 
 if b==True:
     while n<len(a):
