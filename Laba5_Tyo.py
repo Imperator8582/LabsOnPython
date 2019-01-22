@@ -15,11 +15,12 @@ def prost (x):
 
 i = 0
 while i < len(a):
-	if a[i]%8==0 and a[i]!=0:
+	if a[i] % 8 == 0 and a[i] != 0:
 		del a[i]
-	elif prost(a[i])==0:
-        a.insert(i+1,a[i])
-        i+=2
+	elif prost(a[i]) == 0:
+        i = i + 2
+        #a.insert(i+1,a[i])
+        # i = i + 2
     else:
         i+=1
 
